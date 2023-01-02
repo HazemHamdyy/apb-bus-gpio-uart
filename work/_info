@@ -1,0 +1,287 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vAPB_Bridge
+Z1 !s100 C?d:8>0Vd@BJUT`g5R[fP2
+Z2 IV<@3SERIC8;kcg^AoH[_R1
+Z3 VR67BSPKJ>Ga5k]l[I269R0
+Z4 dE:\computer arch\New folder
+Z5 w1672609820
+Z6 FAPB_bus.v
+Z7 8E:/computer arch/New folder/Final-tb.v
+Z8 FE:/computer arch/New folder/Final-tb.v
+L0 1
+Z9 OV;L;10.1d;51
+r1
+31
+Z10 !s108 1672611079.127000
+Z11 !s107 UART-APB-interface.v|baud-rate-generator.v|fifo.v|transmitter.v|receiver.v|UART-controller.v|UART-APB.v|gpio.v|APB_bus.v|APB_Protocol.v|E:/computer arch/New folder/Final-tb.v|
+Z12 !s90 -reportprogress|300|-work|work|E:/computer arch/New folder/Final-tb.v|
+Z13 o-work work -O0
+Z14 n@a@p@b_@bridge
+!i10b 1
+!s85 0
+!s101 -O0
+vAPB_Protcol
+Z15 I>V=MA^S@l3Ni?mL0IKUH<1
+Z16 VBlJ^V2^YL>>SEe7@05>O42
+R4
+Z17 w1672618438
+Z18 FAPB_Protocol.v
+Z19 8E:\computer arch\New folder\Final-tb.v
+Z20 FE:\computer arch\New folder\Final-tb.v
+L0 7
+R9
+r1
+31
+Z21 !s108 1672619441.675000
+Z22 !s107 UART-APB-interface.v|baud-rate-generator.v|fifo.v|transmitter.v|receiver.v|UART-controller.v|UART-APB.v|gpio.v|APB_bus.v|APB_Protocol.v|E:\computer arch\New folder\Final-tb.v|
+Z23 !s90 -reportprogress|300|-work|work|E:\computer arch\New folder\Final-tb.v|
+R13
+Z24 n@a@p@b_@protcol
+Z25 !s100 idok@cBkbglSEHj5Shgf<2
+!i10b 1
+!s85 0
+!s101 -O0
+vAPB_Protocol_tb
+Z26 !s100 N7<TWV;lUgGn47m2RdRK33
+Z27 Ibjnjc6A6kG;QoS@Wl]OAa0
+Z28 ViReF;BacOH`aimmb3dlPk3
+R4
+R17
+R19
+R20
+L0 5
+R9
+r1
+31
+R21
+R22
+R23
+R13
+Z29 n@a@p@b_@protocol_tb
+!i10b 1
+!s85 0
+!s101 -O0
+vbaud_gen
+!i10b 1
+Z30 !s100 PAcYfO6YN3nPTebZ_nG4R1
+Z31 IHJb2bHoLNQf^^gN@T;Ieo3
+Z32 VT7ROQj=;GITPj:m[;O1_B1
+R4
+Z33 w1672607373
+Z34 Fbaud-rate-generator.v
+Z35 8E:/computer arch/New folder/UART-controller.v
+Z36 FE:/computer arch/New folder/UART-controller.v
+L0 1
+R9
+r1
+!s85 0
+31
+Z37 !s108 1672619444.293000
+Z38 !s107 baud-rate-generator.v|fifo.v|transmitter.v|receiver.v|E:/computer arch/New folder/UART-controller.v|
+Z39 !s90 -reportprogress|300|-work|work|E:/computer arch/New folder/UART-controller.v|
+!s101 -O0
+R13
+vfifo
+!i10b 1
+Z40 !s100 LZ`CHZUcAc1?5i`]Dk[=03
+Z41 IRJIcJBZEJzT`1231aZTFf0
+Z42 VCmOFEOPCHR@0Km;mYnV`P2
+R4
+R33
+Z43 Ffifo.v
+R35
+R36
+L0 1
+R9
+r1
+!s85 0
+31
+R37
+R38
+R39
+!s101 -O0
+R13
+vGPIO
+Z44 I[0eA3og]UBPn5nVWk6kjn0
+Z45 VYilQ@Xo5z5kYVN`hg15ZJ1
+R4
+Z46 w1672619422
+Z47 8E:/computer arch/New folder/gpio.v
+Z48 FE:/computer arch/New folder/gpio.v
+L0 1
+R9
+r1
+31
+R13
+Z49 n@g@p@i@o
+Z50 !s100 ET@NKOdQX_698zX>o6fJo3
+Z51 !s108 1672619442.612000
+Z52 !s107 E:/computer arch/New folder/gpio.v|
+Z53 !s90 -reportprogress|300|-work|work|E:/computer arch/New folder/gpio.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmaster_bridge
+Z54 !s100 :VUB_XYO0QV5LEL^O_7KH2
+Z55 I8`hg7N6`h@z@Oooa<z`Lk2
+Z56 V3ec^SZK<:6Si8h0ezG6LY1
+R4
+R17
+R6
+R19
+R20
+L0 1
+R9
+r1
+31
+R21
+R22
+R23
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vPiso
+Z57 !s100 Njo]ZKzn>C008TF8GXlbc0
+Z58 I^d0nW4Ra<M[Y>1T4?b?660
+Z59 VU11TkfnFQE;;6OXFhhg9<3
+R4
+Z60 w1672606833
+Z61 8E:/computer arch/New folder/piso.v
+Z62 FE:/computer arch/New folder/piso.v
+L0 1
+R9
+r1
+31
+Z63 !s90 -reportprogress|300|-work|work|E:/computer arch/New folder/piso.v|
+R13
+Z64 n@piso
+Z65 !s108 1672619442.800000
+Z66 !s107 E:/computer arch/New folder/piso.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vreceiver
+!i10b 1
+Z67 !s100 ;NRY7`<FNJ<QUeRe^n3MZ2
+Z68 I`no6?JEW9gTBY3d@FoYzo3
+Z69 V3;GhdjHChOBc0N=o92Rk70
+R4
+R33
+Z70 Freceiver.v
+R35
+R36
+L0 3
+R9
+r1
+!s85 0
+31
+R37
+R38
+R39
+!s101 -O0
+R13
+vsipo
+Z71 !s100 @;7gf9YI2@@zD:DH0VYg62
+Z72 I7BNlMcg<gfK?23Q0?THmL1
+Z73 Vm_:55UDAXf;U5cU0RME;<2
+R4
+R60
+Z74 8E:/computer arch/New folder/sipo.v
+Z75 FE:/computer arch/New folder/sipo.v
+L0 1
+R9
+r1
+31
+Z76 !s90 -reportprogress|300|-work|work|E:/computer arch/New folder/sipo.v|
+R13
+Z77 !s108 1672619443.137000
+Z78 !s107 E:/computer arch/New folder/sipo.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTransmitter
+!i10b 1
+Z79 !s100 X5SBR@>eCf?Bk0MJC?m3f3
+Z80 IbBS40_jEKG6ziLd>CTL1K1
+Z81 VUY>F3@onH3Le;IDZ;YPXo2
+R4
+R33
+Z82 Ftransmitter.v
+R35
+R36
+L0 2
+R9
+r1
+!s85 0
+31
+R37
+R38
+R39
+!s101 -O0
+R13
+Z83 n@transmitter
+vUART
+!i10b 1
+!s100 _aA>3TVhi9lAeFdFNOOW53
+I?zb>6WUD=T@OlVYe4FoUm1
+Z84 VEl;f8oi[E=LcgDNIW6elP1
+R4
+R33
+R35
+R36
+L0 6
+R9
+r1
+!s85 0
+31
+R37
+R38
+R39
+!s101 -O0
+R13
+Z85 n@u@a@r@t
+vUART_APB
+Z86 IlN9PQF4TWMGN9DDZ[N]NU2
+Z87 VY5OF:In^G_7aHKK`ce9BN2
+R4
+Z88 w1672607367
+Z89 8E:/computer arch/New folder/UART-APB.v
+Z90 FE:/computer arch/New folder/UART-APB.v
+L0 4
+R9
+r1
+31
+Z91 !s108 1672619443.450000
+Z92 !s107 UART-APB-interface.v|baud-rate-generator.v|fifo.v|transmitter.v|receiver.v|UART-controller.v|E:/computer arch/New folder/UART-APB.v|
+Z93 !s90 -reportprogress|300|-work|work|E:/computer arch/New folder/UART-APB.v|
+R13
+Z94 n@u@a@r@t_@a@p@b
+Z95 !s100 Sdd1;5DQh]X5fE2=oOGNZ1
+!i10b 1
+!s85 0
+!s101 -O0
+vUART_APB_interface
+Z96 Ic=g[C0GEBOY>]Hg@WC@5F0
+Z97 VV5UENe?PYdfW3LAD@X4jc0
+R4
+R60
+Z98 8E:/computer arch/New folder/UART-APB-interface.v
+Z99 FE:/computer arch/New folder/UART-APB-interface.v
+L0 2
+R9
+r1
+31
+R13
+Z100 n@u@a@r@t_@a@p@b_interface
+!i10b 1
+Z101 !s100 5S8d=UMzRdF4RlkR7VU]U1
+!s85 0
+Z102 !s108 1672619444.139000
+Z103 !s107 E:/computer arch/New folder/UART-APB-interface.v|
+Z104 !s90 -reportprogress|300|-work|work|E:/computer arch/New folder/UART-APB-interface.v|
+!s101 -O0
